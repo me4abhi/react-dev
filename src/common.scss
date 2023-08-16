@@ -1,0 +1,14 @@
+dl {
+  dt {
+    display: list-item;
+    margin-left: 1rem;
+    width: fit-content;
+    padding: 0.1rem 0.4rem;
+    border-radius: 5px;
+    background-color: #343434;
+  }
+  dd {
+    display: inline-flex;
+    margin: 0.3rem 0 0.3rem 1rem;
+  }
+}

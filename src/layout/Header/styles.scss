@@ -1,0 +1,29 @@
+.header * {
+  margin: 0;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  padding: 1rem;
+  border-bottom: 1px solid grey;
+}
+
+.header-logo {
+  display: flex;
+  gap: 1rem;
+
+  img {
+    height: 60px;
+    width: auto;
+  }
+}
+
+.header-links {
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+  gap: 1rem;
+}
